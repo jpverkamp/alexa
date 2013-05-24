@@ -42,7 +42,9 @@ def is_top_n(domain, n):
     """
 
     assert 1 <= n <= 1000000
-    return get_rank(domain) < n
+
+    rank = get_rank(domain)
+    return (rank != None) and rank < n
 
 def get_rank(domain):
     """
