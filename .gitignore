@@ -1,0 +1,11 @@
+# Backup files
+*~
+*.bak
+\#*\#
+
+# Compiled files
+*.pyc
+
+# This file will automatically be downloaded
+top-1m.csv.zip
+top-1m.csv
